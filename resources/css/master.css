@@ -23,9 +23,62 @@ a {
   border-bottom: 1px solid seashell;
   align-items: center;
   justify-content: space-between;
+  background-color: black;
 }
-
 .header img {
   margin-left: 10px;
   height: 50px;
+}
+
+/*Scrolling content*/
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*Mission and branding*/
+.missionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  margin-top: 70px;
+  background-image: url("../images/img-mission-background.jpg");
+
+}
+h2,
+h4 {
+  margin: 10px;
+}
+.mission,
+.featuredTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  justify-content: center;
+}
+
+.featuredContainer {
+  margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: space-around;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature img {
+  width: 300px;
+  height: 200px;
 }
